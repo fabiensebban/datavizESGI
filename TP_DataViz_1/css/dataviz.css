@@ -1,0 +1,55 @@
+/**********************
+	BASE CSS
+**********************/
+body {
+	width: 70%;
+    margin: auto;
+    background-color: rgb(243, 243, 243);
+}
+
+h1 {
+	text-align: center;
+    font-family: Calibri;
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(52, 103, 186);
+    font-weight: bold;
+}
+
+#content {
+    background-color: white;
+    box-shadow: 5px 5px 2px #888888;
+    padding: 25px;
+    border-radius: 10px;
+	float: left;
+    width: 90%;
+    margin-left: 3%;
+}
+
+#exemple_pie_chart {
+	width: 400px;
+	height: 400px;
+}
+
+.explication {
+	float: left;
+    width: 60%;
+    margin-left: 5%;
+    font-family: Arial;
+}
+
+.explication h2 {
+	font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.explication p {
+	font-size: 15px;
+}
+
+#d3 i.d3-bar {
+    width: 30px;
+    margin: 0 3px;
+    display: inline-block;
+}
